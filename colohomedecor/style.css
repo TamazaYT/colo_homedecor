@@ -1,0 +1,559 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+   margin: 45px 55px ;
+
+}
+
+.header {
+    background-image: url(bg.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-line {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-item {
+    color: black;
+    text-decoration: none;
+    font-weight: 96px;
+    font-size: 15px;
+
+    margin-right: 25PX;
+    transition: color 0.3s linear;
+}
+
+.nav-item:hover{
+   color: gold;
+
+}
+
+
+
+
+.num {
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.num:hover{
+    color: gold;
+    transition: color 0.2s linear;
+}
+
+
+
+.tg-text {
+    font-size: 14px;
+    font-weight: 400px;
+    padding-left: 50px;
+    color: black;
+
+}
+
+.tg-holder{
+    display: flex;
+    align-items: center;
+}
+
+.liniya{
+    padding-right: 7px;
+    padding-left: 4px;
+
+}
+
+.heaer-down {
+    position: relative;
+}
+
+
+
+
+
+.header-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 20px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 12px;
+    
+}
+
+ 
+
+.header-title2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 20px;
+    text-align: center;
+   
+}
+
+
+.header-subtitle{
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 100px;
+    font-weight: 100px;
+}
+
+.header-title3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 15px;
+    text-align: center;
+}
+.header-title4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 15px;
+    text-align: center;
+}
+ 
+
+
+
+.header-button{
+  padding-right: 8;
+  text-align: center;
+
+}
+
+.cards-holder{
+    display:flex;
+    justify-content: center;
+  
+}
+
+
+.card{
+    width: 349px;
+    box-shadow: 10px 10px 40px 20px #000001A;
+    margin-right: 31px;
+    background-color: #fff;
+    margin-top: -80px;
+    padding: 0px 10px;
+}
+
+.card-image {
+    display: flex;
+    justify-content: center;
+    padding-top: 31px;
+    padding-bottom: 10px;
+}
+
+.card-title{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 15px;
+    
+}
+
+
+
+.card-desc{
+   text-align: center;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 15px;
+   font-weight: 15px;
+   color: black;
+}
+
+
+.card2 {
+    width: 349px;
+    box-shadow: 10px 10px 40px 20px #000001A;
+    margin-right: 31px;
+    background-color: #fff;
+    margin-top: -80px;
+    padding: 0px 10px;
+}
+
+.card-image2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 31px;
+    padding-bottom: 10px;
+}
+
+.card-title2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 15px;
+}
+
+
+
+.card-desc2 {
+   text-align: center;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 15px;
+   font-weight: 15px;
+  color: black;
+}
+
+.card3 {
+    width: 349px;
+    box-shadow: 10px 10px 40px 20px #000001A;
+    margin-right: 31px;
+    background-color: #fff;
+    margin-top: -80px;
+    padding: 0px 10px;
+}
+
+.card-image3 {
+    display: flex;
+    justify-content: center;
+    padding-top: 31px;
+    padding-bottom: 10px;
+}
+
+.card-title3 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 15px;
+}
+
+
+
+.card-desc3 {
+   text-align: center;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 15px;
+   font-weight: 15px;
+   color: black;
+}
+
+.products-title{
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Tinos', serif;
+font-size: 30px;
+font-weight: 15px;
+text-align: center;
+padding-top: 94px;
+margin-bottom: 100px;
+
+}
+
+.prs {
+    display: flex;
+    justify-content: center;
+}
+
+.prs-items {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+
+}
+
+.prs-image{
+    margin-right: 30px;
+}
+
+.pr-text {
+    font-family: 'Bitter', serif;
+font-family: 'IBM Plex Sans Arabic', sans-serif;
+font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Tinos', serif;
+font-size: 18px;
+
+}
+
+.pr2-text {
+    font-family: 'Bitter', serif;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Tinos', serif;
+    font-size: 18px;
+  
+      
+}
+
+.pr3-text {
+    font-family: 'Bitter', serif;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Tinos', serif;
+    font-size: 18px;
+    
+}
+
+.pr4-text {
+    font-family: 'Bitter', serif;
+font-family: 'IBM Plex Sans Arabic', sans-serif;
+font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Tinos', serif;
+font-size: 18px;
+
+}
+
+.pr5-text {
+    font-family: 'Bitter', serif;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Tinos', serif;
+    font-size: 18px;
+  
+      
+}
+
+.pr6-text {
+    font-family: 'Bitter', serif;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Tinos', serif;
+    font-size: 18px;
+    
+}
+
+.products1-title{
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Tinos', serif;
+font-size: 30px;
+font-weight: 15px;
+text-align: center;
+padding-top: 94px;
+margin-bottom: 100px;
+}
+
+.cards1-holder{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    
+}
+
+.card1 {
+    width: 549px;
+    margin-right: 31px;
+    padding: 0px 10px;
+   
+    
+}
+
+.card1-image{
+    display: flex;
+    justify-content: center;
+    padding-top: 31px;
+    
+}
+
+.card1-title{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-family: 'Bitter', serif;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Tinos', serif;
+    font-size: 24px;  
+}
+
+.card1-desc {
+   text-align: center;
+   font-family: 'Bitter', serif;
+   font-family: 'IBM Plex Sans Arabic', sans-serif;
+   font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+   font-family: 'Open Sans', sans-serif;
+   font-family: 'Roboto', sans-serif;
+   font-family: 'Tinos', serif;
+   font-size: 24px;
+    
+}
+
+.card-2 {
+    width: 549px;
+    margin-top: 3px;
+    margin-right: 31px;
+    padding: 0px 10px;
+    
+}
+
+.card2-image{
+    display: flex;
+    justify-content: center;
+    padding-top: 31px;
+
+}
+
+.card2-title{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 18px;
+    font-family: 'Bitter', serif;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Tinos', serif;
+    font-size: 24px;
+}
+
+.card2-desc {
+    text-align: center;
+    font-family: 'Bitter', serif;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Tinos', serif;
+    font-size: 24px;
+}
+
+.question-holder{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    
+}
+
+.block-title{
+    font-family: 'Bitter', serif;
+font-family: 'IBM Plex Sans Arabic', sans-serif;
+font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Tinos', serif;
+font-size: 25px;
+font-weight: 15px;
+text-align: center;
+padding-top: 94px;
+margin-bottom: 100px; 
+}
+
+.question1 {
+    width: 549px;
+    margin-top: 3px;
+    margin-right: 31px;
+    padding: 0px 10px;
+
+}
+
+.question-image{
+    display: flex;
+    justify-content: center;
+    padding-top: 31px; 
+}
+
+.question-desc{
+    text-align: center;
+    font-family: 'Bitter', serif;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Tinos', serif;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.question2 {
+    width: 549px;
+    margin-top: 3px;
+    margin-right: 31px;
+    padding: 0px 10px;
+
+}
+
+.question2-image{
+    display: flex;
+    justify-content: center;
+    padding-top: 31px; 
+}
+
+.question2-desc{
+    text-align: center;
+    font-family: 'Bitter', serif;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Tinos', serif;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.question3 {
+    width: 549px;
+    margin-top: 3px;
+    margin-right: 31px;
+    padding: 0px 10px;
+
+}
+
+.question3-image{
+    display: flex;
+    justify-content: center;
+    padding-top: 31px; 
+}
+
+.question3-desc{
+    text-align: center;
+    font-family: 'Bitter', serif;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Tinos', serif;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.text{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+}
+
+.colo-image{
+    font-size: 25px;
+    font-weight: 15px;
+    text-align: center;
+    padding-top: 94px;
+    margin-bottom: 100px; 
+}
